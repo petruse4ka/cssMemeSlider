@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Georgia";
+  font-weight: 400;
+  src: url("../assets/fonts/georgia/georgia-regular.ttf");
+}
+  
+@font-face {
+  font-family: "Georgia";
+  font-weight: 700;
+  src: url("../assets/fonts/georgia/georgia-bold.ttf");
+}
+  
+@font-face {
+  font-family: "Arial";
+  font-weight: 400;
+  src: url("../assets/fonts/arial/arial-regular.ttf");
+}
+  
+@font-face {
+  font-family: "Arial";
+  font-weight: 700;
+  src: url("../assets/fonts/arial/arial-bold.ttf");
+}
+  
+@font-face {
+  font-family: "Arial";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../assets/fonts/arial/arial-italic.ttf");
+}
+  
+html {
+  scroll-behavior: smooth;
+}
+  
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: gray; 
+}
