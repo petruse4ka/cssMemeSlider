@@ -160,3 +160,22 @@ body {
   background-color: transparent;
   border: #ffffff solid 0.1rem;
 }
+
+@media only screen and (max-width: 888px) {
+  .slider__container {
+    max-width: 90%;
+  }
+  
+  .slider__navigation {
+    flex-direction: column-reverse;
+  }
+
+  .navigation__list {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+
+  .navigation__bullets {
+    align-self: center;
+  }
+}
