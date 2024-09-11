@@ -14,6 +14,12 @@
 <body>
   <main>
     <section class="slider">
+      <input class="slider__radio" type="radio" name="slider" id="slide1" checked >
+      <input class="slider__radio" type="radio" name="slider" id="slide2">
+      <input class="slider__radio" type="radio" name="slider" id="slide3">
+      <input class="slider__radio" type="radio" name="slider" id="slide4">
+      <input class="slider__radio" type="radio" name="slider" id="slide5">
+      
       <div class="slider__container">
         <div class="slider__container_secondary">
           <ul class="slider__list">
@@ -29,7 +35,7 @@
             <li class="slider__item">
               <img class="slider__image" src="assets/images/ainsley.jpg" alt="Image of Ainsley Harriott chef from jerk chicken video">
             </li>
-            <li class="slider_item">
+            <li class="slider__item">
               <img class="slider__image" src="assets/images/travolta.jpg" alt="Image of John Travolta from Pulp Fiction movie looking around a room">
             </li>
           </ul>
@@ -52,23 +58,12 @@
               <p class="navigation__title">Where are more Memes?</p>
             </li>
           </ul>
-          <ul class="navigation__bullets">
-            <li class="navigation__bulet">
-              <p class="bullet__point bullet__point_active"></p>
-            </li>
-            <li class="navigation__bulet">
-              <p class="bullet__point"></p>
-            </li>
-            <li class="navigation__bulet">
-              <p class="bullet__point"></p>
-            </li>
-            <li class="navigation__bulet">
-              <p class="bullet__point"></p>
-            </li>
-            <li class="navigation__bulet">
-              <p class="bullet__point"></p>
-            </li>
-          </ul>
+          <div class="navigation__bullets">
+            <label for="slide1" class="bullet__point"></label>
+            <label for="slide2" class="bullet__point"></label>
+            <label for="slide3" class="bullet__point"></label>
+            <label for="slide4" class="bullet__point"></label>
+            <label for="slide5" class="bullet__point"></label>
         </div>
       </div>
     </section>
