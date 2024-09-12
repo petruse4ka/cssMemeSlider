@@ -43,6 +43,10 @@ body {
   background-color: rgb(33, 34, 34); 
 }
 
+h1 {
+  display: none;
+}
+
 .slider {
   margin: 0;
   padding: 0;
