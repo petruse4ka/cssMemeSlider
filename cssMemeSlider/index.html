@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CSS Meme Slider by Konstantin Petrov">
+  <meta name="keywords" content="Memes, Meme Slider, Funny Images, Internet Memes, Meme Gallery, Trending Memes, Viral Memes, Meme Collection, Humor, Online Memes, Meme Website, Popular Memes">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <title>CSS Meme Slider by Konstantin Petrov</title>
+</head>
+<body>
+  <main>
+    <section class="slider">
+      <h1 class="page__title">CSS Meme Slider by Konstantin Petrov</h1>
+      <input class="slider__radio" type="radio" name="slider" id="slide1" checked >
+      <input class="slider__radio" type="radio" name="slider" id="slide2">
+      <input class="slider__radio" type="radio" name="slider" id="slide3">
+      <input class="slider__radio" type="radio" name="slider" id="slide4">
+      <input class="slider__radio" type="radio" name="slider" id="slide5">      
+      <div class="slider__container">
+        <div class="slider__container_secondary">
+          <ul class="slider__list">
+            <li class="slider__item">
+              <img class="slider__image" src="assets/images/rick.jpg" alt="Image of Rick Roll from his famous Never gonna give you up song">
+            </li>
+            <li class="slider__item">
+              <img class="slider__image" src="assets/images/biden.jpg" alt="Image of Joe Biden at his 2020 debate with Trump telling him to shut up">
+            </li>
+            <li class="slider__item">
+              <img class="slider__image" src="assets/images/oneel.jpg" alt="Image of Shaquille O’neal from hot chicken wings youtube interview">
+            </li>
+            <li class="slider__item">
+              <img class="slider__image" src="assets/images/ainsley.jpg" alt="Image of Ainsley Harriott chef from jerk chicken video">
+            </li>
+            <li class="slider__item">
+              <img class="slider__image" src="assets/images/travolta.jpg" alt="Image of John Travolta from Pulp Fiction movie looking around a room">
+            </li>
+          </ul>
+        </div>
+        <div class="slider__navigation">
+          <div class="navigation__container">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <p class="navigation__title">You've been Rick Rolled</p>
+              </li>
+              <li class="navigation__item">
+                <p class="navigation__title">Will you shut up man?</p>
+              </li>
+              <li class="navigation__item">
+                <p class="navigation__title">I almost made a face</p>
+              </li>
+              <li class="navigation__item">
+                <p class="navigation__title">He-He Booooooy</p>
+              </li>
+              <li class="navigation__item">
+                <p class="navigation__title">Where are more Memes?</p>
+              </li>
+            </ul>
+          </div>
+          <div class="navigation__bullets">
+            <label for="slide1" class="bullet__container">
+              <span class="bullet__point"></span>
+            </label>
+            <label for="slide2" class="bullet__container">
+              <span class="bullet__point"></span>
+            </label>
+            <label for="slide3" class="bullet__container">
+              <span class="bullet__point"></span>
+            </label>
+            <label for="slide4" class="bullet__container">
+              <span class="bullet__point"></span>
+            </label>
+            <label for="slide5" class="bullet__container">
+              <span class="bullet__point"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
